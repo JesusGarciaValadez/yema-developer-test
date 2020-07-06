@@ -7,6 +7,7 @@ export default function Custom404() {
         <Layout>
             <Head>
                 <title>404 This page could not found | Yema Developer Test App</title>
+                <meta name="description" content="404 This page could not be found | Yema Developer Test App" />
             </Head>
 
             <div className="flex flex-row max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 p-10 text-md font-light tracking-normal leading-normal">

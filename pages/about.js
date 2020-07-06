@@ -7,6 +7,7 @@ const About = () => (
     <Layout>
         <Head>
             <title>About Us | Yema Developer Test App</title>
+            <meta name="description" content="About Us for Yema Developer Test App" />
         </Head>
 
         <Header>About Us</Header>

@@ -47,6 +47,7 @@ class Home extends Component {
             <Layout>
                 <Head>
                     <title>Yema Developer Test App</title>
+                    <meta name="description" content="Photos for Yema Developer Test App" />
                 </Head>
 
                 <Header>Photos</Header>
