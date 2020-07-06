@@ -47,6 +47,7 @@ const Navigation = () => {
                         <button
                             className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
                             onClick={ handleClick }
+                            aria-label="Hamburguer Button"
                         >
                             {
                                 !toggleOpen && <HamburguerIcon />
@@ -60,6 +61,7 @@ const Navigation = () => {
                 <button
                     className="inline-flex items-center justify-center rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white top-0 right-0 w-8 h-6 absolute mt-5 mr-5"
                     onClick={ handleClick }
+                    aria-label="Close button"
                 >
                     {
                         toggleOpen && <CrossIcon />
